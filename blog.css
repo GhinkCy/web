@@ -88,3 +88,16 @@ body{
     text-overflow: ellipsis;
     margin: 20px 0px;
 }
+.navbar a{
+    font-size: 18px;
+    color: #0a0a0a;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(38, 228, 241);
+
+}
